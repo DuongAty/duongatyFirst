@@ -1,0 +1,91 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height: 750px;
+    background: url('./img/banner-mobile.jpg') center center no-repeat;
+    padding: 20px;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+}
+
+.sign-in,
+.about {
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: black;
+}
+
+.sign-in {
+    margin-right: 60px;
+    margin-left: 25px;
+    color: chartreuse;
+    border-radius: 20px;
+    border: 2px solid chartreuse;
+}
+
+.logo {
+    background: url('./img/hapoERP.png') center center no-repeat;
+    height: 250px;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.btn-start {
+    text-align: center;
+
+}
+
+button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background: green;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 35px;
+    height: 45px;
+    width: 140px;
+    cursor: pointer;
+    color: white;
+}
+
+.content-center {
+    height: 120px;
+
+    text-align: center;
+}
+
+.left,
+.right,
+.center {
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+span {
+    display: block;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
